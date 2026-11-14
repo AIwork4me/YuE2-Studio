@@ -12,7 +12,7 @@ on:
     inputs:
       engine_sha:
         description: 'AIwork4me/yue2.cpp commit to build the engine from'
-        default: 'a6ce192'
+        default: 'df4b193'
       ggml_sha:
         description: 'AIwork4me/ggml commit staged into the engine submodule'
         default: '39927eae359a6a57118c179e63287d699627fb20'
@@ -22,7 +22,7 @@ jobs:
     runs-on: windows-latest
     timeout-minutes: 150
     env:
-      ENGINE_SHA: ${{ github.event.inputs.engine_sha || 'a6ce192' }}
+      ENGINE_SHA: ${{ github.event.inputs.engine_sha || 'df4b193' }}
       GGML_SHA: ${{ github.event.inputs.ggml_sha || '39927eae359a6a57118c179e63287d699627fb20' }}
       ROCM_PATH: C:\rocm
     steps:
