@@ -1,0 +1,7 @@
+﻿13:24:52.424 start action=cancel target= timeout=5
+13:24:52.434 app pid 23372
+13:24:52.495 DIALOG hwnd=1379448 title='另存为'
+13:24:52.502 Window id='' name='另存为'
+13:24:52.586 Cancel invoked
+13:24:53.397 dialogs remaining: 1
+13:24:53.400 RESULT: OK

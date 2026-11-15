@@ -1,0 +1,9 @@
+﻿13:39:56.704 start action=save target='C:\dev\yue2-hip-nightly\qa\gui-final-run\export\01a1dd17-export.flac'
+13:39:56.714 app pid 23372
+13:39:56.725 DIALOG #1 hwnd=723538
+13:39:56.733 edit hwnd=2820772 before=''
+13:39:57.350 edit after='C:\dev\yue2-hip-nightly\qa\gui-final-run\export\01a1dd17-export.flac'
+13:39:57.360 save button hwnd=2033852
+13:39:57.363 WM_COMMAND save sent
+13:39:57.678 dialogs remaining: 0
+13:40:06.731 RESULT: OK answered=1

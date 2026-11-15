@@ -1,0 +1,4 @@
+﻿13:57:45.573 start (default-name save)
+13:57:57.391 save dialog hwnd=12518766 -> WM_COMMAND save (btn=1444308)
+13:57:57.716 dialogs remaining: 0
+13:57:57.717 RESULT: done=1

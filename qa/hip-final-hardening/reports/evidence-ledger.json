@@ -1,0 +1,245 @@
+{
+  "ledger_version": "2026-11-15-final-v2",
+  "machine": {
+    "os": "Windows 11 26300 x64",
+    "gpu": "AMD Radeon RX 7900 XTX 24GB (gfx1100)",
+    "driver": "32.0.21030.2001",
+    "rocm": "TheRock 10.1.0 gfx110X, tarball SHA256 1313633026b05f8f6af2a6a16a2f323211dd81a904a808f0ee34d2bbfb8f8441",
+    "sac": "VerifiedAndReputablePolicyState=1 (evaluation) - unchanged all session; policy never modified"
+  },
+  "upstream": {
+    "pr_a": {
+      "url": "https://github.com/timoncool/ggml/pull/1",
+      "head": "39927eae359a6a57118c179e63287d699627fb20",
+      "state": "open, ready for review",
+      "maintainer_feedback": "none",
+      "ci": "43595253167 success"
+    },
+    "pr_b": {
+      "url": "https://github.com/timoncool/yue2.cpp/pull/1",
+      "head_session_start": "d09a0561ce4a216358d57f914e4b238c6548c077",
+      "head_session_end": "18dcb8ac148fc8d9304439b3a7c0817fe8d84962",
+      "engine_cpp_baseline": "3c8b35b702d91a2b495717fc27dd524285647533 (all post-3c8b35b7 commits are tests/ci/docs only)",
+      "state": "open, draft, mergeable",
+      "maintainer_feedback": "none",
+      "ci": [
+        "43655997342 success @ d09a0561",
+        "43658885493 success @ 18dcb8a",
+        "engine-code CI 43603078671 + 43603065824 success @ 3c8b35b7"
+      ],
+      "comments": [
+        "issuecomment-6886742291",
+        "final follow-up posted (33-PASS physical)"
+      ]
+    },
+    "pr_c": {
+      "url": "https://github.com/timoncool/YuE2-Studio/pull/242",
+      "head": "dab746e17ea10d10a10751fa98967f9d451b6f61",
+      "state": "open, draft, mergeable",
+      "maintainer_feedback": "none",
+      "ci": [
+        "43601262629 success",
+        "GUI installer 43603732206 success"
+      ],
+      "comments": [
+        "issuecomment-6886742581",
+        "final follow-up posted (full GUI pass)"
+      ]
+    }
+  },
+  "bundle": {
+    "path": "artifacts/pre-pr-final-engine",
+    "yue_server_sha256": "449ea33dbf201562fdd1475920793b48b4b985c1bfc26169d5dbbd79d10e44e7",
+    "ggml_hip_sha256_prefix": "5031256c20d5b7eb",
+    "ggml_cpu_sha256_flat": "4C7DC0AABA85CA339A6A563CC03A0C9DD4C3258B82381DADB3ED2F03D8224E6B",
+    "ggml_dll_sha256_flat": "2F4A5A03783B81207CD29FD7E6761298EAA761D662CFE5E3B09623A0721FC52F",
+    "runtime_json": "commit 3c8b35b7, backend hip, ggml_override 39927eae, hip_archs gfx1100"
+  },
+  "physical_runs": [
+    {
+      "id": "window1-auto",
+      "utc": "2026-11-15T02:14:44Z",
+      "result": "32 PASS / 1 FAIL / 0 BLOCKED",
+      "note": "auto-fired by watcher; FAIL=no-kernel-pack caused by a concurrent GUI engine instance colliding on GPU (root-caused, see nokp repros); superseded by window2",
+      "dir": "qa/final-physical-validation-window"
+    },
+    {
+      "id": "window2-exclusive",
+      "utc": "2026-11-15T02:37Z",
+      "result": "33 PASS / 0 FAIL / 0 BLOCKED",
+      "note": "clean exclusive run; mp3 sha 7d912906... identical to window1 (cross-run determinism)",
+      "dir": "qa/final-physical-validation-window2"
+    },
+    {
+      "id": "perf-zh",
+      "result": "33 PASS / 0 FAIL / 0 BLOCKED",
+      "note": "60s ZH seed 8888: 23.9s (2.51x) = exact match of df4b193 baseline",
+      "dir": "qa/perf-zh-3c8b35b7"
+    },
+    {
+      "id": "perf-bf16-cold",
+      "result": "33 PASS / 0 FAIL / 0 BLOCKED",
+      "note": "30s BF16: 22.1s (cold 7.2GB model load)",
+      "dir": "qa/perf-bf16-3c8b35b7"
+    },
+    {
+      "id": "perf-bf16-warm",
+      "result": "33 PASS / 0 FAIL / 0 BLOCKED",
+      "note": "30s BF16: 18.5s (1.62x) warm - matches 18.4s baseline",
+      "dir": "qa/perf-bf16b-3c8b35b7"
+    },
+    {
+      "id": "perf-abc",
+      "result": "33 PASS / 0 FAIL / 0 BLOCKED",
+      "note": "30s ABC fixed score: 11.1s (2.70x) = exact match of baseline",
+      "dir": "qa/perf-abc-3c8b35b7"
+    }
+  ],
+  "gui_results": {
+    "play": {
+      "clicked": "Play: Small steps, bright heart (1) via aria-label",
+      "transport_samples": [
+        "0:02/0:57",
+        "0:05",
+        "0:07",
+        "0:10",
+        "0:12",
+        "0:15",
+        "0:17",
+        "0:20",
+        "0:22",
+        "0:25",
+        "0:27",
+        "0:30"
+      ],
+      "advances": true,
+      "evidence": "qa/gui-final-run/shots-phase2/phase2i-verdict.json + i10/i11 png"
+    },
+    "export": {
+      "clicked": "Download Audio (detail page)",
+      "flac_artifact": "dataroot/media/01a1dd17-c083-755f-a591-39083422aa5a.flac 10689060B magic=fLaC sha256=F2127BFBFBE519BB54E52688E572B9749E77F0C65727747F4110094DD1597C07",
+      "native_save_dialog": "none in this UI build (OS window enum empty); d2af77bb manual save-dialog evidence remains attributed to old head"
+    },
+    "cancel": {
+      "engine_level": "running->cancelled (harness x2 + GUI session)",
+      "gui": "Cancel clicked while job on GPU (AR/NAR lines in engine log); e32/e33 shots + cancelEngineEvidence=true"
+    },
+    "regenerate": {
+      "engine_proof": "second [Pipeline] Done: 9 tracks, 515.1s in 85.8s (6.0x realtime)",
+      "evidence": "engine-phase2e-final.log"
+    },
+    "restart_persistence": {
+      "libraryPersists": true,
+      "verified_count": 3,
+      "shots": [
+        "c60-restart2-library",
+        "e50-restart-library"
+      ]
+    },
+    "failclosed_dllblock": {
+      "hip_only_restarts": 25,
+      "ui_reports_failure": true,
+      "ui_shows_success_wrongly": false,
+      "evidence": "qa/gui-final-run/shots-dllblock/"
+    }
+  },
+  "evidence": [
+    {
+      "test_id": "A2-collector-24h",
+      "timestamp_utc": "2026-11-15T00:26:40Z",
+      "status": "PASS",
+      "detail": "1096 raw XML events; policy inventory fallback; SAC registry read; elevated citool cancelled by owner (documented, not retried)",
+      "artifacts": [
+        "qa/codeintegrity/"
+      ]
+    },
+    {
+      "test_id": "A3-root-cause",
+      "status": "ROOT CAUSE CONFIRMED",
+      "detail": "single policy VerifiedAndReputableDesktop GUID {0283ac0f-...} = {0283AC0F-...}.cip on disk; status 0xC0E90002; SL 2 vs 1; only 4 project-built unsigned PEs blocked; AMD ROCm DLLs never blocked; 0 WDAC loads in 7d; 0x3076",
+      "artifacts": [
+        "reports/21-windows-code-integrity-root-cause.md"
+      ]
+    },
+    {
+      "test_id": "A2-fix-18dcb8a",
+      "status": "PASS",
+      "detail": "collector fallback + SAC state + 3099 classify; CI 43658885493",
+      "artifacts": [
+        "yue2.cpp tests/collect-windows-app-control-evidence.ps1 @ 18dcb8a"
+      ]
+    },
+    {
+      "test_id": "nokp-fail-root-cause",
+      "timestamp_utc": "2026-11-15T02:30-02:36Z",
+      "status": "CLOSED",
+      "detail": "window1 no-kernel-pack FAIL = concurrent GUI engine colliding on GPU; controlled repro x2 with exact payload: engine runs AR+NAR then dies at VAE GEMM printing 'rocBLAS error: Cannot read ...TensileLibrary.dat ... gfx1100' to stderr (contract intact); clean exclusive re-run PASS",
+      "artifacts": [
+        "qa/nokp-repro/",
+        "reports/22 section 5"
+      ]
+    }
+  ],
+  "root_cause": {
+    "policy": "Smart App Control built-in VerifiedAndReputableDesktop (evaluation state enforces)",
+    "blocked": [
+      "yue-server.exe 449ea33d...",
+      "ggml-hip.dll 5031256c...",
+      "ggml-cpu.dll 4c7dc0aa...",
+      "ggml.dll 2f4a5a03..."
+    ],
+    "resolution_session": "all-allow window 02:14Z+ (single-hash set, no policy change) enabled full physical closure; permanent fix = Authenticode signing (cert procurement pending)"
+  },
+  "ci_urls": [
+    "https://github.com/AIwork4me/yue2.cpp/actions/runs/43658885493",
+    "https://github.com/AIwork4me/yue2.cpp/actions/runs/43655997342",
+    "https://github.com/AIwork4me/yue2.cpp/actions/runs/43603078671",
+    "https://github.com/AIwork4me/yue2.cpp/actions/runs/43603065824",
+    "https://github.com/AIwork4me/YuE2-Studio/actions/runs/43601262629",
+    "https://github.com/AIwork4me/YuE2-Studio/actions/runs/43603732206",
+    "https://github.com/AIwork4me/ggml/actions/runs/43595253167"
+  ],
+  "pr_urls": [
+    "https://github.com/timoncool/ggml/pull/1",
+    "https://github.com/timoncool/yue2.cpp/pull/1",
+    "https://github.com/timoncool/YuE2-Studio/pull/242"
+  ],
+  "hip_final_hardening_2026_11_15": {
+    "studio_head_under_review": "4a8186eb1008b96b229f3cd640a9d4080aba8c86",
+    "pr242_state": "OPEN, MERGEABLE, no CI on head (fork Actions backend dead: dispatch 422, push->suites queued forever, rerun reverts, permissions/workflow re-enable + off/on cycle + branch re-push all attempted, control on AIwork4me/yue2.cpp works)",
+    "local_gates_4a8186eb": {
+      "vitest": "62 files / 213 tests PASS",
+      "build": "PASS",
+      "tsc": "PASS (after prebuild changelog generation)",
+      "cargo": "BLOCKED locally by SAC (os 4551, re-confirmed for cargo-fmt)",
+      "note": "repo CI runs no fmt/clippy - not gates"
+    },
+    "watchdog_code_review": "sound - bounded 5 attempts/config, manual restart bypasses via engine_use lock, no double-start, error stays visible; fitted_max_seq auto-insert resets budget by design (bounded)",
+    "crash_rca_resolution": {
+      "verdict": "the two 0xc0000409 GUI-session crashes were MISATTRIBUTED; Application event log ID 1000 paths prove all 10 native crashes (36h window) were iso-no-kernel-pack harness copies; GUI engine never natively crashed (0 events)",
+      "signature": "ucrtbase.dll+0xa527e, fail-fast subcode 7 (FAST_FAIL_FATAL_APP_EXIT = CRT abort), trigger: rocBLAS TensileLibrary.dat missing",
+      "evidence": "qa/crash-evidence/application-errors-0900-1230.json + reports/42-yue-server-native-crash-rca.md §10",
+      "remaining_product_issue": "nokp path aborts instead of clean exit - yue2.cpp preflight kernel-pack candidate (separate follow-up, not PR #242 scope)"
+    },
+    "flac_export_physical": {
+      "verdict": "PASS at dab746e1 - 5 external exports, all SHA256 f2127bfb...c07 == library original (byte-copy contract); cancel negative PASS; restart-then-export PASS; permission-denied PARTIAL (OS deny verified, server 500 path by code review only)",
+      "key_artifacts": [
+        "qa/gui-final-run/export/Small steps, bright heart (1).flac (13:57:57, post-restart, scripted default-save)",
+        "qa/gui-final-run/export/verified/01a1dd17-export..flac (13:39:57, scripted path save)",
+        "qa/manualexport/probe-fresh.flac + Small steps...(1).flac + test1.flac (user-answered dialogs)"
+      ],
+      "dialog_root_cause": "UIA desktop-tree enumeration is blind to the dialog (EnumWindows sees it) + dialog blocks HTTP not DOM + FilesPanel covers row buttons after save; prior session no-dialog claim disproven",
+      "product_findings": [
+        "download click fires /v1/files/save 1-2x (stacked native dialogs; double-invocation suspect)",
+        "HEAD failure path is silent (console.error only)",
+        "unanswered dialogs never time out; one zombie confirm required app restart",
+        "reserved device names (CON/NUL) unhandled in filename sanitize"
+      ]
+    },
+    "still_blocked": [
+      "fork CI for 4a8186eb (owner web-UI action needed)",
+      "4a8186eb binary for watchdog fault-injection + current-head GUI E2E",
+      "yue2.cpp local checkout stale at 18dcb8a vs PR head 81f3200e"
+    ]
+  }
+}

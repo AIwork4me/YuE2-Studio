@@ -1,0 +1,12 @@
+﻿13:37:23.859 start action=save target='C:\dev\yue2-hip-nightly\qa\gui-final-run\export\01a1dd17-export.flac'
+13:37:23.872 app pid 23372
+13:37:32.135 DIALOG #1 hwnd=723538
+13:37:33.325 typed path + ENTER
+13:37:40.841 dialogs remaining: 1
+13:37:40.842 DIALOG #2 hwnd=723538
+13:37:42.037 typed path + ENTER
+13:37:49.538 dialogs remaining: 1
+13:37:49.550 DIALOG #3 hwnd=723538
+13:37:50.742 typed path + ENTER
+13:37:58.254 dialogs remaining: 1
+13:37:58.256 RESULT: OK answered=3

@@ -1,0 +1,181 @@
+[T] hooks installed 05:14:41
+[T] Download clicked; observing 25 s (dialog NOT answered this run) 05:14:45
+[T] ...7s {"fetches":[{"method":"GET","url":"/v1/system/resources","status":200,"body":null},{"method":"GET","url":"/v1/system/resources","status":200,"body":null},{"method":"GET","url":"/v1/activity","status":200,"body":null},{"method":"GET","url":"/v1/activity","status":200,"body":null},{"method":"GET","url 05:14:53
+[T] ...15s {"fetches":[{"method":"GET","url":"/v1/system/resources","status":200,"body":null},{"method":"GET","url":"/v1/system/resources","status":200,"body":null},{"method":"GET","url":"/v1/activity","status":200,"body":null},{"method":"GET","url":"/v1/activity","status":200,"body":null},{"method":"GET","url 05:15:01
+[T] ...23s {"fetches":[{"method":"GET","url":"/v1/system/resources","status":200,"body":null},{"method":"GET","url":"/v1/system/resources","status":200,"body":null},{"method":"GET","url":"/v1/activity","status":200,"body":null},{"method":"GET","url":"/v1/activity","status":200,"body":null},{"method":"GET","url 05:15:09
+FINAL TRACE: {
+  "fetches": [
+    {
+      "method": "GET",
+      "url": "/v1/system/resources",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/system/resources",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/activity",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/activity",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/system/resources",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/system/resources",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/setup/status",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/setup/status",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/openrouter/settings",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/openrouter/settings",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/system/resources",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/system/resources",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/activity",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/activity",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "HEAD",
+      "url": "http://127.0.0.1:8791/v1/library/media/01a1dd17-c083-755f-a591-39083422aa5a?v=1794710691",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "HEAD",
+      "url": "http://127.0.0.1:8791/v1/library/media/01a1dd17-c083-755f-a591-39083422aa5a?v=1794710691",
+      "status": 200,
+      "body": null
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8791/v1/files/save",
+      "status": null,
+      "body": null
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:8791/v1/files/save",
+      "status": null,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/setup/status",
+      "status": null,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/setup/status",
+      "status": null,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/system/resources",
+      "status": null,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/system/resources",
+      "status": null,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/activity",
+      "status": null,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/activity",
+      "status": null,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/karaoke/status",
+      "status": null,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/karaoke/status",
+      "status": null,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/openrouter/settings",
+      "status": null,
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "/v1/openrouter/settings",
+      "status": null,
+      "body": null
+    }
+  ],
+  "saving": [],
+  "errors": [],
+  "desktop": true,
+  "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
+}

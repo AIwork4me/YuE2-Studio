@@ -1,0 +1,10 @@
+﻿13:43:57.778 start action=save target='C:\dev\yue2-hip-nightly\qa\gui-final-run\export\readonly\denied.flac'
+13:43:57.788 app pid 23372
+13:44:06.080 DIALOG #1 hwnd=2754254
+13:44:07.906 edit hwnd=920092 before=''
+13:44:08.529 edit after='C:\dev\yue2-hip-nightly\qa\gui-final-run\export\readonly\denied.flac'
+13:44:08.531 save button hwnd=2754146
+13:44:08.543 WM_COMMAND save sent
+13:44:16.672 dialogs remaining: 2
+13:44:16.675 DIALOG #2 hwnd=2098734
+13:44:18.493 RESULT: filename edit (id 1001) not found

@@ -1,0 +1,5 @@
+﻿13:40:25.411 start action=cancel target=''
+13:40:25.420 app pid 23372
+13:40:33.699 DIALOG #1 hwnd=1968564
+13:40:33.701 WM_CLOSE (cancel)
+13:41:25.679 RESULT: OK answered=1

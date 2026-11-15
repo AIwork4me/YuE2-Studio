@@ -1,0 +1,3 @@
+﻿13:51:29.028 start action=save target='C:\dev\yue2-hip-nightly\qa\gui-final-run\export\after-restart.flac' settle=2500
+13:51:29.050 DIALOG #1 hwnd=1835288 edit=0
+13:51:29.053 RESULT: no edit 1001 (confirm dialog?)

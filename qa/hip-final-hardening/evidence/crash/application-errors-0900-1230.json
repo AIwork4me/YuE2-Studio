@@ -1,0 +1,146 @@
+﻿[
+    {
+        "TimeCreated":  "\/Date(1794711697138)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 1803594785119843247，类型 5\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\Temp\\WER.a74f1ea1-6963-4e22-897a-76855b7eac6b.tmp.WERI | ter | alMetadata.xml\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportArchive\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_ac9a38fd-69f9-446c-b659-212e85172dc1\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: c3e76e4e-1d9b-4dce-a72e-cdc91222fa59\r\n报告状态: 268435456\r\n哈希存储段: 686101ec1b33a035c907a7e6b5d0b3af\r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794711695994)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 ，类型 0\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportQueue\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_ac9a38fd-69f9-446c-b659-212e85172dc1\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: c3e76e4e-1d9b-4dce-a72e-cdc91222fa59\r\n报告状态: 4\r\n哈希存储段: \r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794711695202)\/",
+        "Id":  1000,
+        "Provider":  "Application Error",
+        "Msg":  "出错应用程序名称： yue-server.exe，版本： 0.0.0.0，时间戳： 0x6af86b62\r\n出错模块名称： ucrtbase.dll， 版本： 10.0.26100.9711，时间戳： 0x3f426c5b\r\n异常代码： 0xc0000409\r\n错误偏移： 0x00000000000a527e\r\n出错进程 ID： 0x5A9C\r\n出错应用程序开始时间： 0x1DD74AD9CCECE5C\r\nFaulti | g 应用程序路径： C:\\dev\\yue2-hip- | ightly\\qa\\perf-bf16b-3c8b35b7\\iso- | o-ker | el-pack\\yue-server.exe\r\nFaulti | g 模块路径： C:\\WI | DOWS\\System32\\ucrtbase.dll\r\nReport ID： c3e76e4e-1d9b-4dce-a72e-cdc91222fa59\r\nFaulti | g 包全名： \r\nFaulti | g 程序包相对应用程序 ID：  个"
+    },
+    {
+        "TimeCreated":  "\/Date(1794711558911)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 1803594785119843247，类型 5\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\Temp\\WER.93ef1d42-3504-43b2-ac9d-8d23e62fa00f.tmp.WERI | ter | alMetadata.xml\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportArchive\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_c1fad765-be3d-49f4-a37a-cf7dbc131a6e\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: 95c00add-0b43-47a3-84c4-eef218e0b5d4\r\n报告状态: 268435456\r\n哈希存储段: 686101ec1b33a035c907a7e6b5d0b3af\r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794711557747)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 ，类型 0\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportQueue\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_c1fad765-be3d-49f4-a37a-cf7dbc131a6e\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: 95c00add-0b43-47a3-84c4-eef218e0b5d4\r\n报告状态: 4\r\n哈希存储段: \r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794711556917)\/",
+        "Id":  1000,
+        "Provider":  "Application Error",
+        "Msg":  "出错应用程序名称： yue-server.exe，版本： 0.0.0.0，时间戳： 0x6af86b62\r\n出错模块名称： ucrtbase.dll， 版本： 10.0.26100.9711，时间戳： 0x3f426c5b\r\n异常代码： 0xc0000409\r\n错误偏移： 0x00000000000a527e\r\n出错进程 ID： 0x4A90\r\n出错应用程序开始时间： 0x1DD74AD48AC2039\r\nFaulti | g 应用程序路径： C:\\dev\\yue2-hip- | ightly\\qa\\perf-abc-3c8b35b7\\iso- | o-ker | el-pack\\yue-server.exe\r\nFaulti | g 模块路径： C:\\WI | DOWS\\System32\\ucrtbase.dll\r\nReport ID： 95c00add-0b43-47a3-84c4-eef218e0b5d4\r\nFaulti | g 包全名： \r\nFaulti | g 程序包相对应用程序 ID：  个"
+    },
+    {
+        "TimeCreated":  "\/Date(1794711463319)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 1803594785119843247，类型 5\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\Temp\\WER.62466bc5-65d2-4972-a5bf-bcec6b08bacc.tmp.WERI | ter | alMetadata.xml\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportArchive\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_ba3f5a1d-b86a-4f18-bcef-8876bbcec170\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: f66d06ab-9be0-497d-9f9a-49bf5fae9b6e\r\n报告状态: 268435456\r\n哈希存储段: 686101ec1b33a035c907a7e6b5d0b3af\r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794711460575)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 ，类型 0\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportQueue\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_ba3f5a1d-b86a-4f18-bcef-8876bbcec170\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: f66d06ab-9be0-497d-9f9a-49bf5fae9b6e\r\n报告状态: 4\r\n哈希存储段: \r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794711459736)\/",
+        "Id":  1000,
+        "Provider":  "Application Error",
+        "Msg":  "出错应用程序名称： yue-server.exe，版本： 0.0.0.0，时间戳： 0x6af86b62\r\n出错模块名称： ucrtbase.dll， 版本： 10.0.26100.9711，时间戳： 0x3f426c5b\r\n异常代码： 0xc0000409\r\n错误偏移： 0x00000000000a527e\r\n出错进程 ID： 0x4A8C\r\n出错应用程序开始时间： 0x1DD74AD1076B87F\r\nFaulti | g 应用程序路径： C:\\dev\\yue2-hip- | ightly\\qa\\perf-bf16-3c8b35b7\\iso- | o-ker | el-pack\\yue-server.exe\r\nFaulti | g 模块路径： C:\\WI | DOWS\\System32\\ucrtbase.dll\r\nReport ID： f66d06ab-9be0-497d-9f9a-49bf5fae9b6e\r\nFaulti | g 包全名： \r\nFaulti | g 程序包相对应用程序 ID：  个"
+    },
+    {
+        "TimeCreated":  "\/Date(1794711336348)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 1803594785119843247，类型 5\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\Temp\\WER.d5c54c3f-0085-4234-bfaf-998d433437ef.tmp.WERI | ter | alMetadata.xml\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportArchive\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_18cdf584-8375-4fc3-bf79-5aa520c2a4ed\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: b8652710-114d-4739-931f-0836ecfb9c7a\r\n报告状态: 268435456\r\n哈希存储段: 686101ec1b33a035c907a7e6b5d0b3af\r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794711335085)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 ，类型 0\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportQueue\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_18cdf584-8375-4fc3-bf79-5aa520c2a4ed\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: b8652710-114d-4739-931f-0836ecfb9c7a\r\n报告状态: 4\r\n哈希存储段: \r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794711334214)\/",
+        "Id":  1000,
+        "Provider":  "Application Error",
+        "Msg":  "出错应用程序名称： yue-server.exe，版本： 0.0.0.0，时间戳： 0x6af86b62\r\n出错模块名称： ucrtbase.dll， 版本： 10.0.26100.9711，时间戳： 0x3f426c5b\r\n异常代码： 0xc0000409\r\n错误偏移： 0x00000000000a527e\r\n出错进程 ID： 0x39D0\r\n出错应用程序开始时间： 0x1DD74ACC107DA78\r\nFaulti | g 应用程序路径： C:\\dev\\yue2-hip- | ightly\\qa\\perf-zh-3c8b35b7\\iso- | o-ker | el-pack\\yue-server.exe\r\nFaulti | g 模块路径： C:\\WI | DOWS\\System32\\ucrtbase.dll\r\nReport ID： b8652710-114d-4739-931f-0836ecfb9c7a\r\nFaulti | g 包全名： \r\nFaulti | g 程序包相对应用程序 ID：  个"
+    },
+    {
+        "TimeCreated":  "\/Date(1794710340576)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 1803594785119843247，类型 5\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\Temp\\WER.981d2998-c214-4a62-9de1-b4049e445a7c.tmp.WERI | ter | alMetadata.xml\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportArchive\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_685a3e89-5c62-4f70-a32b-96a3048d33a1\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: b56bf129-3b50-47f2-8c00-bb402eebc2e6\r\n报告状态: 268435456\r\n哈希存储段: 686101ec1b33a035c907a7e6b5d0b3af\r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794710339154)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 ，类型 0\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportQueue\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_685a3e89-5c62-4f70-a32b-96a3048d33a1\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: b56bf129-3b50-47f2-8c00-bb402eebc2e6\r\n报告状态: 4\r\n哈希存储段: \r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794710338303)\/",
+        "Id":  1000,
+        "Provider":  "Application Error",
+        "Msg":  "出错应用程序名称： yue-server.exe，版本： 0.0.0.0，时间戳： 0x6af86b62\r\n出错模块名称： ucrtbase.dll， 版本： 10.0.26100.9711，时间戳： 0x3f426c5b\r\n异常代码： 0xc0000409\r\n错误偏移： 0x00000000000a527e\r\n出错进程 ID： 0x425C\r\n出错应用程序开始时间： 0x1DD74AA70E4920E\r\nFaulti | g 应用程序路径： C:\\dev\\yue2-hip- | ightly\\qa\\fi | al-physical-validatio | -wi | dow2\\iso- | o-ker | el-pack\\yue-server.exe\r\nFaulti | g 模块路径： C:\\WI | DOWS\\System32\\ucrtbase.dll\r\nReport ID： b56bf129-3b50-47f2-8c00-bb402eebc2e6\r\nFaulti | g 包全名： \r\nFaulti | g 程序包相对应用程序 ID：  个"
+    },
+    {
+        "TimeCreated":  "\/Date(1794710154123)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 1803594785119843247，类型 5\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\Temp\\WER.227afc52-4b55-4500-8b46-427e00539582.tmp.WERI | ter | alMetadata.xml\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportArchive\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_575d8a44-9954-41e0-bbf4-814c4cd4bedd\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: 6e1d1d83-a634-49a7-8d6e-1f9ea58478a5\r\n报告状态: 268435456\r\n哈希存储段: 686101ec1b33a035c907a7e6b5d0b3af\r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794710152934)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 ，类型 0\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportQueue\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_575d8a44-9954-41e0-bbf4-814c4cd4bedd\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: 6e1d1d83-a634-49a7-8d6e-1f9ea58478a5\r\n报告状态: 4\r\n哈希存储段: \r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794710152079)\/",
+        "Id":  1000,
+        "Provider":  "Application Error",
+        "Msg":  "出错应用程序名称： yue-server.exe，版本： 0.0.0.0，时间戳： 0x6af86b62\r\n出错模块名称： ucrtbase.dll， 版本： 10.0.26100.9711，时间戳： 0x3f426c5b\r\n异常代码： 0xc0000409\r\n错误偏移： 0x00000000000a527e\r\n出错进程 ID： 0x5C98\r\n出错应用程序开始时间： 0x1DD74AA0257077D\r\nFaulti | g 应用程序路径： C:\\dev\\yue2-hip- | ightly\\qa\\ | okp-repro\\iso- | o-ker | el-pack\\yue-server.exe\r\nFaulti | g 模块路径： C:\\WI | DOWS\\System32\\ucrtbase.dll\r\nReport ID： 6e1d1d83-a634-49a7-8d6e-1f9ea58478a5\r\nFaulti | g 包全名： \r\nFaulti | g 程序包相对应用程序 ID：  个"
+    },
+    {
+        "TimeCreated":  "\/Date(1794710040693)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 1803594785119843247，类型 5\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\Temp\\WER.7841f8e2-06a8-47d7-8d5b-107bea5c27dd.tmp.WERI | ter | alMetadata.xml\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportArchive\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_3cb120a9-308f-4938-9d80-83c1e75353a5\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: 7fc88683-bbfd-4940-a3ce-0672ea99e8eb\r\n报告状态: 268435456\r\n哈希存储段: 686101ec1b33a035c907a7e6b5d0b3af\r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794710038915)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 ，类型 0\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportQueue\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_3cb120a9-308f-4938-9d80-83c1e75353a5\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: 7fc88683-bbfd-4940-a3ce-0672ea99e8eb\r\n报告状态: 4\r\n哈希存储段: \r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794710038080)\/",
+        "Id":  1000,
+        "Provider":  "Application Error",
+        "Msg":  "出错应用程序名称： yue-server.exe，版本： 0.0.0.0，时间戳： 0x6af86b62\r\n出错模块名称： ucrtbase.dll， 版本： 10.0.26100.9711，时间戳： 0x3f426c5b\r\n异常代码： 0xc0000409\r\n错误偏移： 0x00000000000a527e\r\n出错进程 ID： 0x4694\r\n出错应用程序开始时间： 0x1DD74A9BCCA212B\r\nFaulti | g 应用程序路径： C:\\dev\\yue2-hip- | ightly\\qa\\ | okp-repro\\iso- | o-ker | el-pack\\yue-server.exe\r\nFaulti | g 模块路径： C:\\WI | DOWS\\System32\\ucrtbase.dll\r\nReport ID： 7fc88683-bbfd-4940-a3ce-0672ea99e8eb\r\nFaulti | g 包全名： \r\nFaulti | g 程序包相对应用程序 ID：  个"
+    },
+    {
+        "TimeCreated":  "\/Date(1794709527819)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 1803594785119843247，类型 5\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\Temp\\WER.348dbd54-1c43-4a92-bb9c-8b17b590393c.tmp.WERI | ter | alMetadata.xml\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportArchive\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_287d4e26-093b-46cc-9990-6533d104c45f\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: d59fd6e1-22fc-48bd-86a1-db0b803de334\r\n报告状态: 268435456\r\n哈希存储段: 686101ec1b33a035c907a7e6b5d0b3af\r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794709525729)\/",
+        "Id":  1001,
+        "Provider":  "Windows Error Reporting",
+        "Msg":  "故障存储段 ，类型 0\r\n事件名称: BEX64\r\n响应: 不可用\r\nCab ID: 0\r\n\r\n问题签名:\r\nP1: yue-server.exe\r\nP2: 0.0.0.0\r\nP3: 6af86b62\r\nP4: ucrtbase.dll\r\nP5: 10.0.26100.9711\r\nP6: 3f426c5b\r\nP7: 00000000000a527e\r\nP8: c0000409\r\nP9: 0000000000000007\r\nP10: \r\n\r\n附加文件:\r\n\r\n可在此处获取这些文件:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Wi | dows\\WER\\ReportQueue\\AppCrash_yue-server.exe_faad627d82f4789910db6fce52763c6cdcb841bb_99fcf1f0_287d4e26-093b-46cc-9990-6533d104c45f\r\n\r\n分析符号: \r\n重新检查解决方案: 0\r\n报告 ID: d59fd6e1-22fc-48bd-86a1-db0b803de334\r\n报告状态: 4\r\n哈希存储段: \r\nCab GUID: 0"
+    },
+    {
+        "TimeCreated":  "\/Date(1794709524936)\/",
+        "Id":  1000,
+        "Provider":  "Application Error",
+        "Msg":  "出错应用程序名称： yue-server.exe，版本： 0.0.0.0，时间戳： 0x6af86b62\r\n出错模块名称： ucrtbase.dll， 版本： 10.0.26100.9711，时间戳： 0x3f426c5b\r\n异常代码： 0xc0000409\r\n错误偏移： 0x00000000000a527e\r\n出错进程 ID： 0x2910\r\n出错应用程序开始时间： 0x1DD74A88C194A83\r\nFaulti | g 应用程序路径： C:\\dev\\yue2-hip- | ightly\\qa\\pre-pr-fi | al-e | gi | e\\iso- | o-ker | el-pack\\yue-server.exe\r\nFaulti | g 模块路径： C:\\WI | DOWS\\System32\\ucrtbase.dll\r\nReport ID： d59fd6e1-22fc-48bd-86a1-db0b803de334\r\nFaulti | g 包全名： \r\nFaulti | g 程序包相对应用程序 ID：  个"
+    }
+]

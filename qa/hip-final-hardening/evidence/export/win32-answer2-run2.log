@@ -1,0 +1,4 @@
+﻿13:29:36.083 start action=save target='C:\dev\yue2-hip-nightly\qa\gui-final-run\export\01a1dd17-export.flac' timeout=150
+13:29:36.093 app pid 23372
+13:29:43.990 DIALOG #1 hwnd=1837020 title='另存为'
+13:29:44.017 RESULT: filename edit not found under Pane 1001

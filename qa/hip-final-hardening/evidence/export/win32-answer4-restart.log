@@ -1,0 +1,10 @@
+﻿13:49:13.868 start action=save target='C:\dev\yue2-hip-nightly\qa\gui-final-run\export\after-restart.flac'
+13:49:13.878 app pid 23544
+13:49:22.155 DIALOG #1 hwnd=1181920
+13:49:25.175 edit hwnd=2231318 before=''
+13:49:25.789 edit after='C:\dev\yue2-hip-nightly\qa\gui-final-run\export\after-restart.flac'
+13:49:25.790 save button hwnd=1247690
+13:49:25.799 WM_COMMAND save sent
+13:49:33.932 dialogs remaining: 2
+13:49:33.934 DIALOG #2 hwnd=1835288
+13:49:36.940 RESULT: filename edit (id 1001) not found

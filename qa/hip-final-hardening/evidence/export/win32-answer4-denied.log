@@ -1,0 +1,9 @@
+﻿13:42:16.934 start action=save target='C:\dev\yue2-hip-nightly\qa\gui-final-run\export\readonly\denied.flac'
+13:42:16.934 app pid 23372
+13:42:25.228 DIALOG #1 hwnd=854610
+13:42:25.237 edit hwnd=1903790 before=''
+13:42:25.843 edit after='C:\dev\yue2-hip-nightly\qa\gui-final-run\export\readonly\denied.flac'
+13:42:25.843 save button hwnd=723504
+13:42:25.843 WM_COMMAND save sent
+13:42:26.183 dialogs remaining: 0
+13:43:17.083 RESULT: OK answered=1

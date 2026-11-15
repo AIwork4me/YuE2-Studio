@@ -1,0 +1,4 @@
+﻿13:55:06.902 start action=save target='C:\dev\yue2-hip-nightly\qa\gui-final-run\export\after-restart.flac' settle=6000
+13:55:15.168 DIALOG #1 hwnd=1116450 edit=1838016
+13:55:22.189 filename via UIA: ''
+13:55:22.192 RESULT: value did not stick
